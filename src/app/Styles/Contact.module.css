@@ -1,0 +1,31 @@
+.contactContainer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #0F2027;
+}
+
+.contactContent {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  width: 90%;
+  margin: 2.5rem auto;
+  align-items: center;
+}
+
+@media (min-width: 640px) {
+  .contactContent {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .contactContent {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.contactInfoWrapper {
+  display: flex;
+  justify-content: center;
+}

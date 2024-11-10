@@ -1,0 +1,42 @@
+.projectSection {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #050709;
+}
+
+.projectGrid {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .projectGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .projectGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.projectCard {
+  background-color: #1e3a8a;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.projectCard:hover {
+  transform: scale(1.05);
+}
+
+.projectImage {
+  width: 100%;
+  display: block;
+}

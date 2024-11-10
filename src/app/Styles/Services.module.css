@@ -1,0 +1,33 @@
+.servicesSection {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #1f1c2c;
+}
+
+.servicesGrid {
+  display: grid;
+  gap: 2.5rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+@media (min-width: 640px) {
+  .servicesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .servicesGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  .servicesGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

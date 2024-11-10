@@ -1,0 +1,96 @@
+.aboutContainer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #16222A;
+}
+
+.aboutContent {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.aboutTitle {
+  font-size: 1.625rem;
+  font-weight: bold;
+  color: #E5E7EB;
+  line-height: 1.2;
+}
+
+.aboutDescription {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  color: #9CA3AF;
+}
+
+.iconTextWrapper {
+  margin-top: 2rem;
+}
+
+.iconText {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.icon {
+  width: 1.75rem;
+  height: 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blueIcon {
+  background-color: #1E40AF;
+}
+
+.greenIcon {
+  background-color: #065F46;
+}
+
+.orangeIcon {
+  background-color: #EA580C;
+}
+
+.iconCheck {
+  color: #FFFFFF;
+}
+
+.iconDescription {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #D1D5DB;
+}
+
+.statsContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.stat {
+  text-align: center;
+}
+
+.statImage {
+  margin: 0 auto;
+}
+
+.statLabel {
+  font-size: 1rem;
+  color: #9CA3AF;
+}
+
+.statValue {
+  margin-top: 0.75rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #FFFFFF;
+}

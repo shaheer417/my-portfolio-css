@@ -1,0 +1,40 @@
+.skillsSection {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #0f0715;
+}
+
+.skillsGrid {
+  margin-top: 5rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+@media (min-width: 640px) {
+  .skillsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .skillsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .skillsGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  .skillsGrid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
